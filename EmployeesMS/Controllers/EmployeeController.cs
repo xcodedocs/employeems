@@ -9,7 +9,7 @@ using EmployeeMS.Models;
 
 namespace EmployeeMS.Controllers
 {
-    [Authorize]
+    
     public class EmployeeController : ApiController
     {
         private IList<Employee> _employees;
