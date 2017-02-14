@@ -21,7 +21,8 @@ namespace EmployeeMS.Controllers
             _employees = new List<Employee>(){new Employee(){FirstName="Peter", LastName="Worlin", Grade=5, ID=1, IsManager=true},
                                             new Employee(){FirstName="Clare", LastName="Worlin", Grade=3, ID=2, IsManager=true},
                                             new Employee{FirstName="Lauren", LastName="Worlin", Grade=2, ID=3, IsManager=false},
-                                            new Employee{FirstName="Sophie", LastName="Worlin", Grade=1, ID=4, IsManager=false}};
+                                            new Employee{FirstName="Sophie", LastName="Worlin", Grade=2, ID=3, IsManager=false},
+                                            new Employee{FirstName="Jason", LastName="Worlin", Grade=1, ID=4, IsManager=false}};
         }
 
         public EmployeeController(IList<Employee> employees)
