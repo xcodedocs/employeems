@@ -27,8 +27,6 @@ namespace EmployeeMS.Controllers
 
         public EmployeeController(IList<Employee> employees)
         {
-            //this is a comment
-            //and another to force a build
             _employees = employees;
         }
 #endregion
